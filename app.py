@@ -1578,3 +1578,6 @@ def friends_page():
         friends=friends_list,
         pending=pending_users
     )
+
+if __name__ == "__main__":
+    app.run(debug=True)
